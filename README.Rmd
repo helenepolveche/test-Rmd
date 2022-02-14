@@ -2,17 +2,7 @@
 title: "Tests"
 author: "Hélène Polvèche"
 date: "`r format(Sys.time(), '%B, %Y')`"
-output: 
-  rmdformats::downcute:
-    self_contained: true
-    thumbnails: true
-    lightbox: true
-    gallery: false
-    highlight: tango
-    code_folding: hide
-    number_sections: true
-    css: "./css/cssRapport.css"
-    
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -44,7 +34,8 @@ Test 1
 
 ## Sources 
 
-Test 2
+- Test 2 
+- Test 3 
 
 ## Session Info
 

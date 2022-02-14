@@ -22,7 +22,8 @@ Test 1
 
 ## Sources
 
-Test 2
+-   Test 2
+-   Test 3
 
 ## Session Info
 
