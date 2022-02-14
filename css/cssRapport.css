@@ -1,0 +1,139 @@
+html, body {
+	--sidebar-background: #adc5e2;
+	--sidebar-width: 280px;
+}
+
+#content h1 {
+	color: #5A7B9C ;
+	font-weight: bold ;	
+	font-size : 28px ;
+}
+
+h1.title {
+	color: #5A7B9C ;
+	font-weight: bold ;	
+	font-size : 32px ;
+	text-align: center;
+}
+
+#content h2 {
+	color: #5A7B9C ;
+	font-weight: bold ;	
+	font-size : 22px ;
+}
+
+#content h3 {
+	color: #5A7B9C ;
+	font-size : 18px ;
+}
+
+.warni {
+	color : #b22222 ;
+}
+/*#content h4 {
+	color: #5A7B9C ;
+	font-weight: bold ;	
+}
+
+#content h5 {
+	color: #5A7B9C ;
+	font-weight: bold ;	
+}
+
+#content h6 {
+	color: #5A7B9C ;
+	font-weight: bold ;	
+}
+*/
+
+#content legend {
+	color: #5A7B9C ;
+	font-weight: bold ;	
+}
+
+
+.toggle {
+  display: none;
+}
+
+
+.code-mask code, .page-content pre code {
+  font-size: 12px;
+}
+
+.page-content img.image-thumb {
+  width: 70%;
+}
+
+.page-content table {
+  width: 70%;
+}
+
+.page-content table thead tr th {
+  color: #000;
+}
+
+
+details summary {
+  padding: 1em;
+  font-size: 26px;
+  color: #034b6f ;
+  text-align: center;
+}
+
+/*
+details summary::before {
+  content: "â–¶";
+}
+details summary:hover::before {
+  content: "â–·";
+}
+details summary:active::before {
+  content: "â–¼";
+}
+details summary:focus::before {
+  content: "â–¼";
+}
+*/
+
+/*
+
+#postamble {
+background:#003366;
+  border-top:solid 10px #5A7B9C;
+}
+
+.title {
+  text-align: center;
+}
+*/
+
+/*
+#toc {
+color: #5A7B9C;
+
+}*/
+
+
+
+/*
+#main .nav-pills > li.active > a,
+#main .nav-pills > li.active > a:hover,
+#main .nav-pills > li.active > a:focus {
+background-color: #3d1308;
+  }
+
+#main a {
+background-image: linear-gradient(180deg,#d64a70,#d64a70);
+color: #c7254e;
+    }
+									*/
+/*
+a:hover {
+  color: #003366;
+}
+
+a:visited {
+  color: #3d1308;
+}
+*/
