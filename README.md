@@ -3,6 +3,11 @@ Tests
 Hélène Polvèche
 février, 2022
 
+-   [1 Datas](#datas)
+-   [2 Material & Methods](#material--methods)
+    -   [2.1 Sources](#sources)
+    -   [2.2 Session Info](#session-info)
+
 <img src="./img/fond_presMJ_2.png" style="width:100.0%" />
 
 ``` r
@@ -14,18 +19,18 @@ library(ggExtra)
 library(tidyverse)
 ```
 
-# Datas
+# 1 Datas
 
 Test 1
 
-# Material & Methods
+# 2 Material & Methods
 
-## Sources
+## 2.1 Sources
 
 -   Test 2
 -   Test 3
 
-## Session Info
+## 2.2 Session Info
 
 ``` r
 sessionInfo()

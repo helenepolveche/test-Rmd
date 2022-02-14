@@ -2,8 +2,13 @@
 title: "Tests"
 author: "Hélène Polvèche"
 date: "`r format(Sys.time(), '%B, %Y')`"
-output: github_document
+output: 
+  github_document:
+    number_sections: TRUE
+    toc: TRUE
 ---
+
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, cache.lazy = FALSE,  
