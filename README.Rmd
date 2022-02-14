@@ -1,35 +1,54 @@
 ---
-output: github_document
+title: "Tests"
+author: "Hélène Polvèche"
+date: "`r format(Sys.time(), '%B, %Y')`"
+output: 
+  rmdformats::downcute:
+    self_contained: true
+    thumbnails: true
+    lightbox: true
+    gallery: false
+    highlight: tango
+    code_folding: hide
+    number_sections: true
+    css: "./css/cssRapport.css"
+    
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache.lazy = FALSE,  
+                      message = FALSE,   collapse = TRUE, comment = "#>")
+library(rmdformats)
+library(kableExtra)
+library(DT)
+library(data.table)
+library(downloadthis)
+```
+![](./img/fond_presMJ_2.png){width=100%}
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
+
+```{r lib, message=FALSE, echo = TRUE, warning = F}
+library(dplyr)
+library(Seurat)
+library(ggplot2)
+library(RColorBrewer)
+library(ggExtra)
+library(tidyverse)
 ```
 
-# test_GitHub
+# Datas 
 
-<!-- badges: start -->
-<!-- badges: end -->
+Test 1 
 
-The goal of test_GitHub is to ...
+# Material & Methods
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+## Sources 
 
-```{r cars}
-summary(cars)
+Test 2
+
+## Session Info
+
+
+```{r infosess}
+sessionInfo()
 ```
-
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this. You could also use GitHub Actions to re-render `README.Rmd` every time you push. An example workflow can be found here: <https://github.com/r-lib/actions/tree/v1/examples>.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub.
